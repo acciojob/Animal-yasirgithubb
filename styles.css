@@ -1,1 +1,63 @@
-/*  your css code here. If applicable */
+*{
+    background-color:black ;
+    
+}
+.container{
+    display: flex;
+    justify-content:space-evenly ;
+    width: 550px;
+    height: 550px;
+   
+    background-color: rgba(211, 211, 211, 0.441);
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.item{
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 15px;
+    width: 250px;
+    height: 120px;
+    position: relative;
+    margin: 50px;
+    background-color: rgba(211, 211, 211, 0);
+
+    
+}
+.yasir{
+    display: flex;
+    position: absolute;
+    left: 180px;
+    top: 10px;
+    background-color: rgba(211, 211, 211, 0);
+    color: white;
+}
+.test{
+        display: flex;
+        justify-content:space-evenly ;
+        gap: 15px;
+        width: 90px;
+        height: 120px;
+        position: absolute;
+        margin: 50px;
+        top: 150px;
+        right: 140px;
+        background-color: rgba(211, 211, 211, 0);
+
+        
+}
+.line{
+    display: flex;
+    justify-content:space-evenly ;
+    gap: 15px;
+    width: 90px;
+    height: 120px;
+    position: absolute;
+    margin: 50px;
+    top: 280px;
+    right: 140px;
+    background-color: rgba(211, 211, 211, 0);
+}
+
+}
